@@ -1,16 +1,34 @@
-# family_e_board
+# 📌 Family e-Board  
 
-A new Flutter project.
+A cross-platform **Flutter application** designed to help families stay organized by managing tasks, finances, and meals in one place.  
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features  
+- 👨‍👩‍👧‍👦 **User Accounts & Authentication** – secure login for family members  
+- 📊 **Financial Dashboard** – track income, expenses, and budgets  
+- 🛒 **Meal Planning & Grocery Lists** – plan meals and auto-generate shopping lists  
+- 🔔 **Notifications** – reminders for tasks, expenses, and meals  
+- 📱 **Cross-Platform** – works on Android, iOS, and Web  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tech Stack  
+- **Framework:** Flutter  
+- **Languages:** Dart  
+- **Database/Backend:** [Add here]  
+- **Version Control:** Git & GitHub  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📂 Project Structure  
+
+---
+
+## ⚙️ Installation  
+```bash
+git clone https://github.com/Huma-ashfaq/family_e_boardd.git
+cd family_e_boardd
+flutter pub get
+flutter run
+
