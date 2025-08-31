@@ -16,7 +16,7 @@ A cross-platform **Flutter application** designed to help families stay organize
 ## 🛠️ Tech Stack  
 - **Framework:** Flutter  
 - **Languages:** Dart  
-- **Database/Backend:** [Add here]  
+- **Database/Backend:** firebase  
 - **Version Control:** Git & GitHub  
 
 ---
