@@ -2,19 +2,25 @@
 
 # 🏡 Family e-Board
 
-### A Cross-Platform Smart Family Management System
+### A Cross-Platform Household Management System Built with Flutter & Firebase
 
-*A modern Flutter application that simplifies household collaboration through task management, financial tracking, meal planning, grocery organization, and real-time notifications.*
+<p align="center">
+A collaborative family management application that integrates financial tracking, meal planning, grocery management, and household organization into a single platform.
+</p>
 
-<p>
+<p align="center">
 
-![Flutter](https://img.shields.io/badge/Flutter-3.x-blue?logo=flutter)
-![Dart](https://img.shields.io/badge/Dart-3.x-blue?logo=dart)
-![Firebase](https://img.shields.io/badge/Firebase-Backend-orange?logo=firebase)
-![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS%20%7C%20Web-success)
+![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-Cloud-orange?logo=firebase)
+![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20Web-success)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 </p>
+
+**🎓 Undergraduate Capstone Project**  
+**🏆 Awarded A+ Grade**  
+**📍 University of Gujrat, Pakistan**
 
 </div>
 
@@ -22,83 +28,59 @@
 
 # 📖 Overview
 
-**Family e-Board** is a cross-platform mobile application developed using **Flutter** and **Firebase** to help families organize everyday activities through a single collaborative platform.
+Family e-Board is a cross-platform mobile application developed using **Flutter** and **Firebase** to simplify household organization through a single collaborative platform.
 
-Instead of relying on multiple disconnected applications for budgeting, grocery planning, meal scheduling, and household task management, Family e-Board integrates these essential features into one secure and intuitive system.
+The application enables family members to securely manage their finances, organize meals, maintain grocery lists, and coordinate daily responsibilities without relying on multiple separate applications.
 
-The project was developed as my undergraduate capstone project in Computer Science and received an **A+ grade**. Beyond fulfilling academic requirements, it reflects my interest in designing practical software solutions that improve collaboration and simplify everyday life.
-
----
-
-# ✨ Motivation
-
-Modern families often use separate applications for:
-
-- Budget tracking
-- Grocery lists
-- Meal planning
-- Shared reminders
-- Household tasks
-
-Managing information across multiple platforms can become inefficient and difficult to maintain.
-
-Family e-Board was designed to solve this problem by providing a **single collaborative environment** where family members can organize household responsibilities together.
+Developed as my undergraduate capstone project in **Computer Science**, Family e-Board received an **A+ grade** and provided practical experience in mobile application development, cloud-based services, state management, and user-centered software design.
 
 ---
 
-# 🚀 Key Features
+# 💡 Motivation
 
-### 👨‍👩‍👧‍👦 User Management
+Families often use different applications for budgeting, grocery planning, meal organization, and daily reminders. Switching between multiple apps makes household management less efficient and information harder to organize.
 
-- Secure user registration
-- Login & authentication
-- Family invitations
-- Shared household access
+Family e-Board addresses this challenge by bringing these everyday activities together in one collaborative application, providing a more organized and user-friendly experience for all family members.
 
 ---
 
-### 💰 Financial Management
+# ✨ Key Features
 
+### 👤 Secure Authentication
+- Email & Password authentication
+- User registration and login
+- Secure user accounts
+
+### 💰 Personal Finance Management
 - Income tracking
 - Expense management
-- Budget monitoring
-- Financial overview dashboard
-
----
+- Available balance calculation
+- Financial dashboard
 
 ### 🍽 Meal Planning
-
-- Weekly meal scheduling
-- Grocery list generation
 - Meal organization
+- Recipe search
+- Meal scheduling
 
----
+### 🛒 Grocery Management
+- Grocery list creation
+- Ingredient management
+- Cost tracking
 
-### 📋 Task Management
+### 📊 Budget Monitoring
+- Budget checking for grocery purchases
+- Spending overview
+- Financial awareness
 
-- Shared household tasks
-- Reminder notifications
-- Task completion tracking
+### 👨‍👩‍👧 Family Collaboration
+- Shared household management
+- Shared expenses
+- Family organization
 
----
-
-### 🔔 Smart Notifications
-
-- Expense reminders
+### 🔔 In-App Reminders
 - Meal reminders
-- Task notifications
-
----
-
-### 📱 Cross Platform
-
-Runs on:
-
-- Android
-- iOS
-- Web
-
-using a single Flutter codebase.
+- Expense reminders
+- Household notifications
 
 ---
 
@@ -106,40 +88,102 @@ using a single Flutter codebase.
 
 | Technology | Purpose |
 |------------|----------|
-| Flutter | Cross-platform UI Development |
-| Dart | Programming Language |
-| Firebase Authentication | User Authentication |
-| Cloud Firestore | Real-time Database |
-| Firebase Storage | Media Storage |
-| Provider | State Management |
-| Git & GitHub | Version Control |
+| Flutter | Cross-platform application development |
+| Dart | Programming language |
+| Firebase Authentication | User authentication |
+| Cloud Firestore | Cloud database |
+| Provider | State management |
+| Git & GitHub | Version control |
 
 ---
 
 # 🏗 System Architecture
 
-```
-
-                Flutter UI
-                     │
+```text
+                    User
+                      │
+              Flutter Application
+                      │
           Provider State Management
-                     │
-      Firebase Authentication
-                     │
-         Cloud Firestore Database
-                     │
-          Real-Time Synchronization
+          ┌───────────┴───────────┐
+          │                       │
+Firebase Authentication   Cloud Firestore
+          │                       │
+          └───────────┬───────────┘
+                      │
+ Household Management Modules
 
+ • Authentication
+ • Expenses
+ • Income
+ • Grocery Lists
+ • Meal Planning
+ • Budget Checker
 ```
 
-The application follows a modular architecture where Flutter provides the presentation layer while Firebase handles authentication, cloud storage, and real-time synchronization between family members.
+---
+
+# 📸 Application Preview
+
+## 🔐 User Authentication
+
+<img src="screenshots/01-login.jpg" width="280">
+
+Secure user authentication using Firebase Authentication with email and password credentials.
+
+---
+
+## 🏠 Family Dashboard
+
+<img src="screenshots/08-family-dashboard.jpg" width="300">
+
+The central navigation hub provides quick access to expenses, meals, shared expenses, grocery management, and budget monitoring.
+
+---
+
+## 💰 Expense Dashboard
+
+<img src="screenshots/03-expense-dashboard.jpg" width="300">
+
+Monitor income, expenses, and available balance through a simple financial dashboard.
+
+---
+
+## ➕ Add New Expense
+
+<img src="screenshots/04-add-expense.jpg" width="300">
+
+Record expenses with categories, dates, and time information.
+
+---
+
+## 🍽 Meal Planner
+
+<img src="screenshots/05-meal-planner.jpg" width="300">
+
+Plan meals and search recipes to simplify household meal organization.
+
+---
+
+## 🛒 Grocery Management
+
+<img src="screenshots/06-ingredients-list.jpg" width="300">
+
+Maintain grocery lists while tracking ingredient prices.
+
+---
+
+## 📊 Budget Checker
+
+<img src="screenshots/07-budget-check.jpg" width="300">
+
+One of the application's key features compares grocery costs against the available budget and immediately informs users whether planned purchases remain within budget.
 
 ---
 
 # 📂 Project Structure
 
-```
-
+```text
 lib/
 │
 ├── models/
@@ -147,129 +191,88 @@ lib/
 ├── screens/
 ├── widgets/
 ├── services/
-├── utilities/
+├── utils/
 └── main.dart
-
 ```
 
-The project follows Flutter's modular architecture to improve maintainability, scalability, and code readability.
+The project follows Flutter's modular architecture to improve maintainability, readability, and scalability.
 
 ---
 
-# 📸 Application Screenshots
+# 🚧 Technical Challenges
 
-> *(Replace these placeholders with screenshots from your application.)*
+During development, the following challenges were addressed:
 
-### 🏠 Dashboard
-
-<img src="screenshots/dashboard.png" width="700"/>
-
----
-
-### 💰 Expense Management
-
-<img src="screenshots/expenses.png" width="700"/>
+- Designing a user-friendly interface for household collaboration.
+- Managing application state using Provider.
+- Integrating Firebase Authentication.
+- Synchronizing application data with Cloud Firestore.
+- Organizing reusable Flutter widgets.
+- Maintaining responsive user interfaces.
 
 ---
 
-### 🍽 Meal Planner
+# 📚 Learning Outcomes
 
-<img src="screenshots/meals.png" width="700"/>
+This project strengthened my practical understanding of:
 
----
-
-### 🛒 Grocery List
-
-<img src="screenshots/grocery.png" width="700"/>
-
----
-
-### 👤 User Authentication
-
-<img src="screenshots/login.png" width="700"/>
-
----
-
-# 💡 Challenges Encountered
-
-During development, several technical challenges were addressed, including:
-
-- Managing application state across multiple modules
-- Designing a user-friendly interface for collaborative family usage
-- Synchronizing shared household data using Cloud Firestore
-- Implementing secure authentication with Firebase
-- Maintaining responsive UI while handling real-time updates
-
-These challenges strengthened my understanding of Flutter architecture, cloud-based applications, and software engineering principles.
-
----
-
-# 📚 Lessons Learned
-
-This project provided practical experience in:
-
-- Flutter application architecture
+- Flutter application development
 - Firebase Authentication
 - Cloud Firestore
-- State Management using Provider
-- Mobile UI/UX Design
-- Cross-platform application development
-- Software Engineering practices
+- Provider state management
+- Mobile UI/UX design
+- Software engineering principles
 - Version control using Git & GitHub
+- Modular application architecture
 
 ---
 
-# 🔮 Future Improvements
+# 🔮 Future Enhancements
 
-Future versions of Family e-Board may include:
+Possible future improvements include:
 
-- 🤖 AI-powered meal recommendations
-- 📈 Expense prediction using Machine Learning
+- 🤖 AI-assisted meal recommendations
+- 📈 Expense prediction and spending insights
 - 🧾 OCR grocery receipt scanning
 - 🎤 Voice assistant integration
-- 📅 Google Calendar synchronization
-- 📊 Family analytics dashboard
+- 📅 Calendar synchronization
 - 🌍 Multi-language support
 
 ---
 
-# 📄 Documentation
+# 📖 Documentation
 
-Comprehensive project documentation is available in the **docs/** directory.
-
-Documentation includes:
+The repository includes comprehensive project documentation covering:
 
 - Technical Documentation
-- System Design
+- Software Architecture
 - Database Design
-- Architecture
 - User Guide
+- System Design
 
 ---
 
-# 👩‍💻 Developer
+# 👩‍💻 About the Developer
 
 **Huma Ashfaq**
 
-Computer Science Graduate
+Computer Science Graduate  
+Flutter Developer  
+Aspiring Researcher in Human-Centered AI & Learning Analytics
 
-Flutter Developer
-
-Aspiring Graduate Researcher in Human-Centered AI & Learning Analytics
-
-GitHub:
-
-https://github.com/Huma-ashfaq
-
-Portfolio:
+### Portfolio
 
 https://huma-ashfaq.github.io/
+
+### GitHub
+
+https://github.com/Huma-ashfaq
 
 ---
 
 # ⭐ Support
 
-If you found this project interesting, consider giving it a ⭐ on GitHub.
+If you found this project interesting, please consider giving it a ⭐ on GitHub.
 
 Feedback and suggestions are always welcome.
 
@@ -279,6 +282,6 @@ Feedback and suggestions are always welcome.
 
 ### Thank you for visiting this repository ❤️
 
-*"Technology is most meaningful when it helps people solve everyday problems."*
+*"Building technology that solves everyday problems through thoughtful software design."*
 
 </div>
