@@ -135,7 +135,7 @@ Secure user authentication using Firebase Authentication with email and password
 
 ## 🏠 Family Dashboard
 
-<img src="screenshots/08-family-dashboard.jpg" width="300">
+<img src="screenshots/family.jpeg" width="280">
 
 The central navigation hub provides quick access to expenses, meals, shared expenses, grocery management, and budget monitoring.
 
