@@ -127,7 +127,7 @@ Firebase Authentication   Cloud Firestore
 
 ## 🔐 User Authentication
 
-<img src="screenshots/01-login.jpg" width="280">
+<img src="screenshots/login.jpeg" width="280">
 
 Secure user authentication using Firebase Authentication with email and password credentials.
 
@@ -142,8 +142,9 @@ The central navigation hub provides quick access to expenses, meals, shared expe
 ---
 
 ## 💰 Expense Dashboard
+<img src="screenshots/expense.jpeg" width="280">
 
-<img src="screenshots/03-expense-dashboard.jpg" width="300">
+
 
 Monitor income, expenses, and available balance through a simple financial dashboard.
 
@@ -151,7 +152,7 @@ Monitor income, expenses, and available balance through a simple financial dashb
 
 ## ➕ Add New Expense
 
-<img src="screenshots/04-add-expense.jpg" width="300">
+<img src="screenshots/addexpense.jpeg" width="280">
 
 Record expenses with categories, dates, and time information.
 
@@ -159,7 +160,7 @@ Record expenses with categories, dates, and time information.
 
 ## 🍽 Meal Planner
 
-<img src="screenshots/05-meal-planner.jpg" width="300">
+<img src="screenshots/meal.jpeg" width="280">
 
 Plan meals and search recipes to simplify household meal organization.
 
@@ -167,7 +168,7 @@ Plan meals and search recipes to simplify household meal organization.
 
 ## 🛒 Grocery Management
 
-<img src="screenshots/06-ingredients-list.jpg" width="300">
+<img src="screenshots/ingredients.jpeg" width="280">
 
 Maintain grocery lists while tracking ingredient prices.
 
@@ -175,7 +176,7 @@ Maintain grocery lists while tracking ingredient prices.
 
 ## 📊 Budget Checker
 
-<img src="screenshots/07-budget-check.jpg" width="300">
+<img src="screenshots/budget.jpeg" width="280">
 
 One of the application's key features compares grocery costs against the available budget and immediately informs users whether planned purchases remain within budget.
 
