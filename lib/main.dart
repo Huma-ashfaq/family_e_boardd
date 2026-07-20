@@ -11,14 +11,11 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 final firebaseauth = FirebaseAuth.instance;
 
 void main() async {
-  await dotenv.load(fileName: ".env");
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-  options: const FirebaseOptions(
-      apiKey:'AIzaSyCdF8PcLo4_AVhEE-D1Hx8BN5pZW7vgO_Q',
-      appId: '1:634776364804:android:460654d8c46b4070429251',
-      messagingSenderId: '634776364804',
-      projectId: 'mealandexpense'));
+ await dotenv.load(fileName: ".env");
+WidgetsFlutterBinding.ensureInitialized();
+await Firebase.initializeApp(
+  options: DefaultFirebaseOptions.currentPlatform,
+);
       //options: DefaultFirebaseOptions.currentPlatform);
   runApp(
     MyApp(),
