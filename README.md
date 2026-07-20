@@ -71,6 +71,20 @@
 
 ---
 
+## 🔄 Real-Time Synchronization & Multi-User Design
+
+**Problem:** Multiple family members need instant visibility into shared data (expenses, meals) without conflicts.
+
+**Solution:**
+- **Firestore Listeners:** React to real-time database changes across devices
+- **Role-Based Access:** Granular permissions prevent unauthorized data modification
+- **Cloud-First Architecture:** No local sync conflicts; single source of truth on Firebase
+
+**Design Trade-offs:**
+- ✅ Strong consistency (Firebase handles ordering)
+- ✅ Low latency (real-time listeners vs polling)
+- ⚠️ Requires reliable connectivity (offline support in roadmap)
+
 ## 🛠️ Tech Stack
 
 | Technology | Purpose |
